@@ -1,0 +1,207 @@
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - FCC: Tribute Page</title>
+  
+  
+  
+  
+<style>
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <main id="main">
+  <h1 id="title">Kobe Bryant</h1>
+  <p> Regarded as one of the greatest players of all time</p>
+  <figure id="img-div">
+    <img id="image" src="https://media.nbcnewyork.com/2019/09/kobe-bryant-obit-lakers-image.jpg?resize=1200%2C600" alt="kobe2" style="">
+    <figcaption id="img-caption">
+      Bryant helped the Lakers win five NBA championships, and was an 18-time All-Star, a 15-time member of the All-NBA Team, a 12-time member of the All-Defensive Team, the 2008 NBA Most Valuable Player (MVP), and a two-time NBA Finals MVP.
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Here's a time line of Kobe Bryants life:</h3>
+    <ul>
+      <li><strong>1978</strong> - Born in Philadelphia, Pennsylvania</li>
+      <li>
+        <strong>1996</strong> -  The son of former NBA player Joe Bryant, he declared for the 1996 NBA draft after graduation, and was selected by the Charlotte Hornets with the 13th overall pick
+      </li>
+      <li>
+        <strong>1997</strong> -  As a rookie, Bryant earned a reputation as a high-flyer and a fan favorite by winning the 1997 Slam Dunk Contest, and he was named an All-Star by his second season.
+      </li>
+      <li>
+        <strong>2000-2002</strong> - Despite a feud with teammate Shaquille O'Neal, the pair led the Lakers to three consecutive NBA championships from 2000 to 2002.
+      </li>
+      <li>
+        <strong>2006</strong> - In 2006, he scored a career-high 81 points; the second most points scored in a single game in league history, behind Wilt Chamberlain's 100-point game in 1962
+      </li>
+      <li>
+        <strong>2009-2010</strong> -  Bryant led the team to two consecutive championships in 2009 and 2010, and was named NBA Finals MVP on both occasions.
+      </li>
+      <li>
+        <strong>2013</strong> -  Kobe suffered a torn Achilles tendon at age 34
+      </li>
+      <li>
+        <strong>2015-2016</strong> - Kobe's Injures cause his game to decline leading him to Retire.
+      </li>
+      <li>
+        <strong>2018</strong> -  he won the Academy Award for Best Animated Short Film for his 2017 film Dear Basketball.
+      </li>
+      <li>
+        <strong>2020</strong> - Bryant died at age 41, along with his 13-year-old daughter Gianna and seven others, in a helicopter crash in Calabasas, California in 2020
+      </li>
+    </ul>
+    <blockquote cite="https://www.espn.com/nba/story/_/id/30775488/where-investigation-lawsuits-stemming-kobe-bryant-crash-stand-today">
+      <p>
+        "The beauty in being blessed with talent is rising above doubters to create a beautiful moment."
+      </p>
+      <cite>-- The most important thing is to try and inspire people so that they can be great in whatever they want to do.</cite>
+    </blockquote>
+    <h3>
+      If you have time, you should read more about this incredible human being
+      on his
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Kobe_Bryant" target="_blank">Wikipedia entry</a>.
+    </h3>
+  </section>
+</main>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script><div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
+      <script id="rendered-js">
+// eslint-disable-next-line no-unused-vars
+const projectName = 'tribute-page';
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+
+ 
+</body>
+</html>
